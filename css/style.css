@@ -24,15 +24,19 @@ h3 {
 }
 
 .container {
+  margin: 0px;
   width: 100%;
   overflow: auto;
 }
 
-.Baku {
+.baku {
   background-image: url('../images/baku.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 23%;
+  float: left;
+  margin: 1%;
 }
 
 .london {
@@ -40,6 +44,9 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 23%;
+  float: left;
+  margin: 1%;
 }
 
 .madrid {
@@ -47,6 +54,9 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 23%;
+  float: left;
+  margin: 1%;
 }
 
 .rome {
@@ -54,6 +64,9 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 23%;
+  float: left;
+  margin: 1%;
 }
 
 div {
@@ -64,10 +77,13 @@ div {
 }
 
 /* code added to create two-column design */
-@media screen and (min-width: 575px) {
+@media screen and (max-width: 575px) {
   div {
     margin: 1%;
     width: 48%;
+  }
+  .baku, .london, .madrid, .rome {
+        width: 100%;
   }
 }
 
@@ -85,5 +101,5 @@ h3 {
   div {
     margin: 1%;
     width: 48%;
-  }
+    }
 }
