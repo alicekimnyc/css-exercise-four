@@ -22,28 +22,24 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 130px;
-  width: 40%;
 }
 .london {
   background-image: url('../images/london.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 130px;
-  width: 40%;
 }
 .madrid {
   background-image: url('../images/madrid.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 130px;
-  width: 40%;
 }
 .rome {
   background-image: url('../images/rome.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 130px;
-  width: 40%;
 }
 
 div {
@@ -73,3 +69,8 @@ h3 {
   font-weight: bold;
   text-align: left;
 }
+
+@media screen and (min-width: 990px){
+   div {
+    margin: 1%;
+    width: 48%;
