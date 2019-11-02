@@ -79,12 +79,10 @@ div {
 }
 
 /* code added to create two-column design */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   div {
     margin: 1%;
-    width: 48%;
   }
-
   .baku, .london, .madrid, .rome {
     width: 100%;
   }
@@ -98,15 +96,26 @@ h3 {
   font-size: 4em;
   text-align: left;
 }
-
-/* For larger screens laptops and desktops */
-@media screen and (min-width: 575px) {
+/* For tablet's */
+@media screen and (min-width: 768px) {
   div {
     margin: 1%;
-    width: 48%;
+  }
+    .baku, .london, .madrid, .rome {
+      margin: 1%;
+      width: 48%;
+  }
+}
+
+
+/* For larger screens laptops and desktops */
+@media screen and (min-width: 990px) {
+  div {
+    margin: 1%;
   }
 
   .baku, .london, .madrid, .rome {
     margin: 1%;
+    width: 22%;
   }
 }
